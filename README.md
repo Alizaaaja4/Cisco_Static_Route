@@ -26,4 +26,20 @@ Static routing is a method of sending data packets in a computer network that us
     Router> enable
     Router# configure terminal
     Router(config)# enable secret [name password]
-    Router(config)#
+    Router(config)# ....
+
+#### Connect Device to Router
+    Router> enable
+    Router# configure terminal
+    Router(config)# interface [ex: fa1/0]
+    Router(config-if)# ip address [ip default] [subnetmask]
+    Router(config-if)# no shutdown
+    Router(config-if)# exit
+    Router(config)# ....
+
+#### Connect Router to Router
+    Router> enable
+    Router# configure terminal
+    Router(config)# ip route [ip destination] [subnetmask] [ip gateaway]
+    Router(config)# exit
+    Router# show ip route
