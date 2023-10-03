@@ -1,7 +1,7 @@
 # Cisco Static Route
 Practice Simulation of Static Routing in Cisco Packet Tracer Application
 
-Repository Title: Static Routing in Cisco Packet Tracer
+Repository Title : Static Routing in Cisco Packet Tracer
 
 Description : This simulation is an exercise to visualize the concept of routing using the static method. There are three rooms involved, each equipped with a computer, laptop, and switch. The connection between devices is established through two routers configured with static routing.
 
@@ -37,7 +37,7 @@ Static routing is a method of sending data packets in a computer network that us
     Router(config-if)# exit
     Router(config)# ....
 
-#### Connect Router to Router
+#### Connect Router to Router (Static Methods)
     Router> enable
     Router# configure terminal
     Router(config)# ip route [ip destination] [subnetmask] [ip gateaway]
